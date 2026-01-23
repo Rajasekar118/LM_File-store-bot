@@ -6,13 +6,13 @@ routes = web.RouteTableDef()
 async def root_route_handler(request):
     content="""<html>
     <head>
-        <title>Tech freak tamil</title>
+        <title>Lasera_Official🖤</title>
     </head>
     <body>
         <center>
-        <h1>Welcome to Tech freak tamil web page</h1><br>
-        <h2>join our channel for more Bots</h2><br>
-        <a href="https://t.me/tech_freak_tamil"><button>Join now</button></a><br>
+        <h1>Welcome to Lasera Official Channel❤️‍🔥</h1><br>
+        <h2>join our channel for more Updates</h2><br>
+        <a href="https://t.me/Lasera_Official"><button>Join now</button></a><br>
         <h2>This our file store bot</h2>
         </center>
         <style>
@@ -47,7 +47,7 @@ async def root_route_handler(request):
 
 
 
-# Tech freak 
+# Lasera_Official
 # Don't Remove Credit!!!
-# Telegram Channel @Tech_freak_tamil
-# Developer @devilo7
+# Telegram Channel @Lasera_Official
+# Developer @raja_sekar_811
