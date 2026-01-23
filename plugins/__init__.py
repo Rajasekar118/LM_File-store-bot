@@ -11,7 +11,7 @@ async def web_server():
 
 
 
-# Lasera_Official
+# Lasera Official
 # Don't Remove Credit!!!
 # Telegram Channel @Lasera_Official
 # Developer @raja_sekar_811
