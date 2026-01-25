@@ -8,9 +8,9 @@ from config import *
 from helper_func import *
 from database.database import add_user, del_user, full_userbase, present_user
 
-TECH_FREAK = FILE_AUTO_DELETE
-TFT_DEV = TECH_FREAK
-file_auto_delete = humanize.naturaldelta(TFT_DEV)
+Lasera_Official = FILE_AUTO_DELETE
+LM_DEV = Lasera_Official
+file_auto_delete = humanize.naturaldelta(LM_DEV)
 
 
 
@@ -61,7 +61,7 @@ async def start_command(client: Client, message: Message):
             return
         await temp_msg.delete()
     
-        TFT_MSG = [] # List to keep track of sent messages
+        LM_MSG = [] # List to keep track of sent messages
 
         for msg in messages:
 
@@ -78,29 +78,29 @@ async def start_command(client: Client, message: Message):
             try:
                 snt_msg = await msg.copy(chat_id=message.from_user.id, caption = caption, parse_mode = ParseMode.HTML, reply_markup = reply_markup, protect_content=PROTECT_CONTENT)
                 # await asyncio.sleep(0.5)
-                TFT_MSG.append(snt_msg)
+                LM_MSG.append(snt_msg)
                 
             except FloodWait as e:
                 await asyncio.sleep(e.x)
                 snt_msg = await msg.copy(chat_id=message.from_user.id, caption = caption, parse_mode = ParseMode.HTML, reply_markup = reply_markup, protect_content=PROTECT_CONTENT)
-                TFT_MSG.append(snt_msg)
+                LM_MSG.append(snt_msg)
                 
             except:
                 pass
 
 
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>❗️ <u>IMPORTANT</u> ❗️</b>\n\nThis Anime File Will Be Deleted In {file_auto_delete} ⚠️.\n\n🫡 Please Forward This Anime File To Safe place And Start Downloading There.")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>❗️ <u>IMPORTANT</u> ❗️</b>\n\nThis File Will Be Deleted In {file_auto_delete} ⚠️.\n\n🫡 Please Forward This Anime File To Safe place And Start Downloading There.")
 
         # Schedule the file deletion
-        asyncio.create_task(delete_files(TFT_MSG, client, k))
+        asyncio.create_task(delete_files(LM_MSG, client, k))
         
         
 
         return
     else:
         reply_markup = InlineKeyboardMarkup([[
-            InlineKeyboardButton("⚔️Update Channel", url="https://t.me/tech_freak_tamil"),
-            InlineKeyboardButton("🛡️Support Group", url="https://t.me/+NITVxLchQhYzNGZl")
+            InlineKeyboardButton("⚔️Update Channel", url="https://t.me/Lasera_Official"),
+            InlineKeyboardButton("🛡️Support Group", url="https://t.me/Lasera_Movies")
             ],[
             InlineKeyboardButton("📢Help", callback_data="help"),
             InlineKeyboardButton("⚡About", callback_data="about")
@@ -242,7 +242,7 @@ async def delete_files(messages, client, k):
 
 
 
-# Tech freak 
+# Lasera_Official
 # Don't Remove Credit!!!
-# Telegram Channel @Tech_freak_tamil
-# Developer @devilo7
+# Telegram Channel @Lasera_Official
+# Developer @raja_sekar_811
