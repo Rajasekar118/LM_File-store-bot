@@ -25,8 +25,8 @@ FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "0"))
 
 FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "0"))
 
-START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/h0rxg9.jpg")
-F_PIC = os.environ.get("FORCE_PIC", "https://files.catbox.moe/h0rxg9.jpg")
+START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/MksxTzC7/Picsart-26-02-02-08-07-25-867.jpg")
+F_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/MksxTzC7/Picsart-26-02-02-08-07-25-867.jpg")
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1800")) # auto delete in seconds
 
