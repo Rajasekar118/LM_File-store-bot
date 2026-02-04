@@ -1,4 +1,4 @@
-<h2 align="Center"><b><i>File-sharing-Bot</i></b></h2>
+<h2 align="Center"><b><i>LM-File-sharing-Bot</i></b></h2>
 <center><img src="https://files.catbox.moe/h0rxg9.jpg" ></center>
 <p align="center">
   <a href="https://www.python.org">
@@ -82,7 +82,7 @@ python3 main.py
 * `CHANNEL_ID` Your Channel ID eg:- -100xxxxxxxx
 * `DATABASE_URL` Your mongo db url
 * `ADMINS` Optional: A space separated list of user_ids of Admins, they can only create links
-* `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/Techfreak555/TF-File-store-bot/blob/main/README.md#start_message'>fillings</a>
+* `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/Rajasekar811/LM_File-store-bot/blob/main/README.md#start_message'>fillings</a>
 * `START_PIC` Optional: URL or file path of the image to be sent as the start message
 * `FORCE_SUB_MESSAGE`Optional:Force sub message of bot, use HTML and Fillings
 * `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
@@ -93,9 +93,9 @@ python3 main.py
 
 * `AUTO_DELETE_MSG` put your custom deletion text if you want Setup Custom deletion messaeg,
 * `AUTO_DEL_SUCCESS_MSG` Set your custom success message for when the file is successfully deleted
-* `CUSTOM_CAPTION` put your Custom caption text if you want Setup Custom Caption, you can use HTML and <a href='https://github.com/Techfreak555/TF-File-store-bot/blob/main/README.md#custom_caption'>fillings</a> for formatting (only for documents)
+* `CUSTOM_CAPTION` put your Custom caption text if you want Setup Custom Caption, you can use HTML and <a href='https://github.com/Rajasekar811/LM_File-store-bot/blob/main/README.md#custom_caption'>fillings</a> for formatting (only for documents)
 * `DISABLE_CHANNEL_BUTTON` Put True to Disable Channel Share Button, Default if False
-* `BOT_STATS_TEXT` put your custom text for stats command, use HTML and <a href='https://github.com/Techfreak555/TF-File-store-bot/blob/main/README.md#custom_stats'>fillings</a>
+* `BOT_STATS_TEXT` put your custom text for stats command, use HTML and <a href='https://github.com/Rajasekar811/LM_File-store-bot/blob/main/README.md#custom_stats'>fillings</a>
 * `USER_REPLY_TEXT` put your text to show when user sends any message, use HTML
 * `DATABASE_NAME` Your mongo db session name
 </details>
@@ -124,14 +124,14 @@ python3 main.py
 <details><summary><b> Credits :</b></summary>
 ### Credits
 
-- Telegram channel 👉<a href="https://t.me/tech_freak_tamil">Click here</a>
+- Telegram channel 👉<a href="https://t.me/Lasera_Official">Click here</a>
 
 - Thanks To Dan For His Awsome [Libary](https://github.com/pyrogram/pyrogram)
 
 ### Licence
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
-[FILE-SHARING-BOT](https://github.com/Techfreak555/TF-File-store-bot) is Free Software: You can use, study share and improve it at your
+[FILE-SHARING-BOT](https://github.com/Rajasekar811/LM_File-store-bot) is Free Software: You can use, study share and improve it at your
 will. Specifically you can redistribute and/or modify it under the terms of the
 [GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
 published by the Free Software Foundation, either version 3 of the License, or
